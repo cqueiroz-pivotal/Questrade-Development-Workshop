@@ -2,10 +2,10 @@
 
 ## Introduction and Agenda (20 Minutes)
 
-. What we plan to cover?
-. Format for the day
-. Introductions
-. Brief review of concepts covered in Overview workshop
+- What we plan to cover?
+- Format for the day
+- Introductions
+- Brief review of concepts covered in Overview workshop
 
 ## Review Architecture (20 Minutes)
 
