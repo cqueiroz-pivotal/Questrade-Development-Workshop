@@ -1,4 +1,7 @@
 # Questrade PCF Developers Workshop
 
-## Architecture
-This is what we will be building
+## Review Of Circuit Breaker
+
+## Review Of Spring Cloud Services
+
+## Wiring In The Services
