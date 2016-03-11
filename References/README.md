@@ -1,94 +1,18 @@
 # Questrade PCF Developers Workshop
 
-## Introduction and Agenda (20 Minutes)
+## References
 
-- What we plan to cover?
-- Format for the day
-- Introductions
-- Brief review of concepts covered in Overview workshop
+Eureka REST API:
 
-## Review Architecture (20 Minutes)
+https://github.com/Netflix/eureka/wiki/Eureka-REST-operations
 
-- What are the goals of the system?
-- What principles and practices will we follow when building the services?
+.NET API Reference:
 
-*10 Minute Break*
+http://www.asp.net/web-api/overview/older-versions/build-restful-apis-with-aspnet-web-api
 
-## Review PCF Set Up (10 Minutes)
+http://www.asp.net/web-api/overview/getting-started-with-aspnet-web-api/tutorial-your-first-web-api
 
-- Review Orgs, Spaces and Services for the application
+Offical Pivotal PCF Workshop:
 
-## Domain Driven Design Exercise (30 Minutes)
-
-- Model the services
-- Come up with common language
-
-*10 Minute Break*
-
-## Develop Persistence Service in Spring Boot (30 Minutes)
-
-- Develop the code
-- Ensure principles and practices are implemented
-- Set up database (for Dev, QA and Prod)
-- Deploy to the platform
-
-*10 Minute Break*
-
-## Develop Order Service in .NET (40 Minutes)
-
-- Develop the code
-- Ensure principles and practices are implemented
-- Deploy to the platform
-
-*10 Minute Break*
-
-## Review Search Service (20 Minutes)
-
-- Review a prebuilt service (Spring Boot)
-- Memory Cache
-- Deploy to the platform
-
-*10 Minute Break*
-
-## Set Up Eureka and register backend services (40 Minutes)
-
-- Review Eureka Service/Dashboard
-- Update service to use Eureka
-- Redeploy services
-
-*10 Minute Break*
-
-## Develop the UI in Javascript (40 Minutes)
-
-- Develop the code
-- Deploy to the platform
-
-*10 Minute Break*
-
-## Review Edge Service (20 Minutes)
-
-- Review a prebuilt API Gateway Service
-- Deploy to the platform
-
-## Set Up Circuit Breaker and Register Back End Services (40 Minutes)
-
-- Set up Hystrix Dashboard and review the service
-- Integrate clients
-- Develop fallback behavior for services (including persistence)
-
-*10 Minute Break*
-
-## Set Up Security For All Services (40 Minutes)
-
-- Enable HTTPS
-- Authentication & Authorization (OAuth2)
-- Update services and redeploy
-
-*10 Minute Break*
-
-## Review (30 Minutes)
-
-. Test out applications
-. Review of work completed
-. Q&A
+https://github.com/Pivotal-Field-Engineering/PCF-Workshop-101
 
