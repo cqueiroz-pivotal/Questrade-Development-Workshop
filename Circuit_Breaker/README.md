@@ -1,7 +1,9 @@
 # Questrade PCF Developers Workshop
 
 ## Review Of Circuit Breaker
-Luke
+
+Dan
 
 ## Wiring In The Services
+
 Luke + Dan
