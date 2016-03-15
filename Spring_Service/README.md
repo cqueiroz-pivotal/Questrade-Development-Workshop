@@ -1,6 +1,6 @@
 # Questrade PCF Developers Workshop
 
-## Building Out The .NET Application
+## Building Out The Service
 
 ## Deploying to PCF
 
