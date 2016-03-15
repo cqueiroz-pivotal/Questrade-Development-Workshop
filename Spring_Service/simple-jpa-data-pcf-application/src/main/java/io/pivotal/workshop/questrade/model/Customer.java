@@ -1,4 +1,4 @@
-package io.pivotal.fe.demo;
+package io.pivotal.workshop.questrade.model;
 
 import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;

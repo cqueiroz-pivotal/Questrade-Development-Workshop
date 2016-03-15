@@ -1,5 +1,8 @@
 package io.pivotal.fe.demo;
 
+import io.pivotal.workshop.questrade.model.Customer;
+import io.pivotal.workshop.questrade.repo.CustomerRepository;
+
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.boot.CommandLineRunner;

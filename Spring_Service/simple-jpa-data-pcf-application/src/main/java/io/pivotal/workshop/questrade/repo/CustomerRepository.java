@@ -1,4 +1,6 @@
-package io.pivotal.fe.demo;
+package io.pivotal.workshop.questrade.repo;
+
+import io.pivotal.workshop.questrade.model.Customer;
 
 import java.util.List;
 
