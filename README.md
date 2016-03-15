@@ -42,14 +42,6 @@
 
 *10 Minute Break*
 
-## Review Search Service (20 Minutes)
-
-- Review a prebuilt service (Spring Boot)
-- Memory Cache
-- Deploy to the platform
-
-*10 Minute Break*
-
 ## Set Up Eureka and register backend services (40 Minutes)
 
 - Review Eureka Service/Dashboard
