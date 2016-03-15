@@ -5,4 +5,4 @@ applications:
   host: jpa-demo-app
   buildpack: java_buildpack
 services:
-- postgres-db
+- mysql-svc
