@@ -1,7 +1,7 @@
 # Questrade PCF Developers Workshop
 
 ## Review Of Circuit Breaker
-
-## Review Of Spring Cloud Services
+Luke
 
 ## Wiring In The Services
+Luke + Dan
