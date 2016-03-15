@@ -2,7 +2,7 @@ applications:
 - name: jpa-demo-app
   memory: 512M
   path: target/SimpleJPADataApplication-0.0.1-SNAPSHOT.jar
-  host: jpa-demo-app
-  buildpack: java_buildpack
+  host: customer-service
+  buildpack: java_buildpack_offline
 services:
 - mysql-svc
