@@ -1,5 +1,5 @@
 applications:
-- name: jpa-demo-app
+- name: customer-service
   memory: 512M
   path: target/SimpleJPADataApplication-0.0.1-SNAPSHOT.jar
   host: customer-service
