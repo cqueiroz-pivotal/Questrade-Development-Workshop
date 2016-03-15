@@ -1,4 +1,4 @@
-package io.pivotal.fe.demo;
+package io.pivotal.workshop.questrade;
 
 import io.pivotal.workshop.questrade.model.Customer;
 import io.pivotal.workshop.questrade.repo.CustomerRepository;
