@@ -8,8 +8,8 @@
 ##
 ## This script assumes you are already logged into your PCF instance.
 ## You must be an org manager.
-## It will create 15 spaces in the current org, from "student1" to 
-## "student15", and create and assign a quota "workshop" to each. 
+## It will create 10 spaces in the current org, from "student1" to 
+## "student10", and create and assign a quota "workshop" to each. 
 ## Each student account must be created by an admin user.
 ##
 
