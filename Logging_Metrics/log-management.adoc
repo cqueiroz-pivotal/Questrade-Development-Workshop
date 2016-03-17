@@ -1,0 +1,20 @@
+= Logging and Metrics
+
+== Goal
+
+Send logs for an application to Papertrail using syslog draining.
+
+Estimated time: 15 minutes
+
+== Configure Syslog Draining for an Application
+
+. Sign up for a free Papertrail account: https://papertrailapp.com/.
+
+. Follow the instructions on link:http://docs.cloudfoundry.org/devguide/services/log-management-thirdparty-svc.html#papertrail[Setting up Papertrail]. Use
+the Heroku links (Cloud Foundry syslog draining is compatible with Heroku).  Create the
+user-provided service and bind it to your existing microservices.
+
+. Open the Papertrail dashboard and view the logs for your application. In Apps Manager, start and stop the bound application and verify that corresponding
+log entries are made.
+
+Congratulations, you've used syslog draining to send logs for your application to Papertrail.
