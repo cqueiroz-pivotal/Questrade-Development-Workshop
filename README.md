@@ -90,7 +90,7 @@
 *10 Minute Break*
 
 
-## Logging and Metrics (30 Minutes)
+## Logging and Metrics (15 Minutes)
 (Dan)
 
 - Create syslog drain service instances and bind to apps
