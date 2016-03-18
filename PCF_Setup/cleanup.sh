@@ -4,7 +4,7 @@
 ##
 ## Parameters
 ## Usage:
-## $ cleanup.sh
+## $ cleanup.sh <org>
 ##
 ## This script assumes you are already logged into your PCF instance.
 ## You must be an org manager.
@@ -12,7 +12,7 @@
 ## "student10", and delete the "workshop" quota.
 ##
 
-org="pivot-lshannon"
+org=$1
 cf target -o $org -s questrade
 
 echo Deleting space quota workshop....
