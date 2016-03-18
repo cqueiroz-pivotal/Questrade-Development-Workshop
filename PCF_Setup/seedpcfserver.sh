@@ -27,8 +27,10 @@ do
 cf create-space student$[$i]
 cf set-space-quota student$[$i] workshop
 
+# Create services
 cf target -o $org -s student$[$i]
 cf create-service p-mysql 100mb-dev mysql-svc
+cf create-service p-config-server standard config-svc
 
 # Can only do this after the student accounts have been created
 #cf set-space-role student$[$i] $org student$[$i] SpaceDeveloper
