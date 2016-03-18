@@ -1,8 +1,8 @@
 applications:
 - name: customer-service
   memory: 512M
-  path: target/SimpleJPADataApplication-0.0.1-SNAPSHOT.jar
-  host: customer-service
+  path: target/CustomerServiceApplication-0.0.1-SNAPSHOT.jar
+  host: customer-service-${random-word}
   buildpack: java_buildpack_offline
 services:
 - mysql-svc

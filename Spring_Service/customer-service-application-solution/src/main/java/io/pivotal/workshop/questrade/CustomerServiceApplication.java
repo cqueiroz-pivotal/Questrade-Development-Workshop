@@ -11,12 +11,12 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
 @SpringBootApplication
-public class SimpleJpaDataPcfApplication {
+public class CustomerServiceApplication {
 	
-	private static final Logger log = LoggerFactory.getLogger(SimpleJpaDataPcfApplication.class);
+	private static final Logger log = LoggerFactory.getLogger(CustomerServiceApplication.class);
 
 	public static void main(String[] args) {
-		SpringApplication.run(SimpleJpaDataPcfApplication.class, args);
+		SpringApplication.run(CustomerServiceApplication.class, args);
 	}
 	
 	@Bean
