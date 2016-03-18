@@ -1,3 +1,12 @@
-Spring_Service/simple-jpa-data-pcf-application/target/maven-status/maven-compiler-plugin/compile/default-compile
-Spring_Service/simple-jpa-data-pcf-application/target
-Spring_Service/simple-jpa-data-pcf-application/bin
+/.settings/
+/.project
+/.classpath
+/.springbeans
+/target
+/bin
+*/.settings/
+*/.project
+*/.classpath
+*/.springbeans
+*/target
+*/bin
