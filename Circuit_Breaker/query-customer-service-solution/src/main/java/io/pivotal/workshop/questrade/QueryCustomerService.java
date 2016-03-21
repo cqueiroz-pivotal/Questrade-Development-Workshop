@@ -15,7 +15,7 @@ public class QueryCustomerService {
 	Logger logger = LoggerFactory
 			.getLogger(QueryCustomerService.class);
 
-	private RestTemplate restTemplate;
+	private RestTemplate restTemplate = new RestTemplate();
 	
 	@HystrixCommand(fallbackMethod = "queryCustomerFallback")
 	public String queryCustomer() {
