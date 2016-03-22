@@ -1,7 +1,7 @@
 # Questrade PCF Developers Workshop
 
 ## Introduction and Agenda (20 Minutes)
-(Luke)
+(Luke) - need to create slides
 
 - What we plan to cover?
 - Format for the day
@@ -10,7 +10,8 @@
 
 
 ## Review Architecture (20 Minutes)
-(Luke)
+(Luke) - need to create slides
+(Luke) - need to update acrchitecture for no cloud to .NET (talk about Steel toe)
 
 - What are the goals of the system?
 - What principles and practices will we follow when building the services?
@@ -19,22 +20,22 @@
 
 
 ## Review PCF Set Up (10 Minutes)
-(Dan)
+(Dan) - add services
 
 - Review Orgs, Spaces and Services for the application
 
 
 ## Domain Driven Design Exercise (30 Minutes)
-(Luke)
-
-- Model the services
-- Come up with common language
+(Luke) - need to do slides
+- take hands on from training
 
 *10 Minute Break*
 
 
 ## Develop Persistence Service in Spring Boot (30 Minutes)
-(Luke)
+(Luke) - need to do instructions
+(Luke) - need to a few slides
+(Luke) - create starter code
 
 - Develop the code
 - Ensure principles and practices are implemented
@@ -45,7 +46,11 @@
 
 
 ## Develop Order Service in .NET (40 Minutes)
-(Luke & Dan)
+(Luke) - Clean up code
+(Luke) - Create starter code
+(Luke) - Write instructions
+(Luke) - Basic slides
+
 
 - Develop the code
 - Ensure principles and practices are implemented
@@ -55,7 +60,7 @@
 
 
 ## Set Up Eureka and register backend services (40 Minutes)
-(Luke)
+(Dan)
 
 - Review Eureka Service/Dashboard
 - Update service to use Eureka
@@ -65,7 +70,9 @@
 
 
 ## Develop the UI in Javascript (40 Minutes)
-(Luke)
+(Luke) - Need to do the application
+- Write instructions
+- Basic Slides
 
 - Develop the code
 - Deploy to the platform
@@ -74,14 +81,19 @@
 
 
 ## Review Edge Service (20 Minutes)
-(Luke)
+(Luke + Dan) - Write application together
+(Luke) - Start Project
+(Luke) - Instructions
+(Dan) - Slides
 
 - Review a prebuilt API Gateway Service
 - Deploy to the platform
 
 
 ## Set Up Circuit Breaker and Register Back End Services (40 Minutes)
-(Luke & Dan)
+(Dan) - Configure the service
+(Dan) - Instructions
+(Luke) - Slides
 
 - Set up Hystrix Dashboard and review the service
 - Integrate clients
@@ -91,14 +103,19 @@
 
 
 ## Logging and Metrics (15 Minutes)
-(Dan)
+(Dan) - Instructions
+(Dan + Luke) - Slides
+(Dan + Luke) - Demo of New Relic
 
 - Create syslog drain service instances and bind to apps
 
 
 
-## Set Up Security For All Services (40 Minutes)
-(Dan)
+## Review Application Security in PCF (40 Minutes)
+Need: Hands on exercise
+Need: Slides
+Need: Instructions
+Need: Starter Code
 
 - Enable HTTPS
 - Authentication & Authorization (OAuth2)
@@ -108,9 +125,8 @@
 
 
 ## Review (30 Minutes)
-(Luke)
+(Luke) - Create slides
 
-. Test out applications
 . Review of work completed
 . Q&A
 
