@@ -14,6 +14,7 @@
 ##
 
 org=$1
+password="questrade16"
 cf target -o $org -s questrade
 
 cf create-space-quota workshop -m 2G -r 1000 -s 10
