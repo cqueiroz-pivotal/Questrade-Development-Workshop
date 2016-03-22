@@ -14,7 +14,7 @@
 
 (Luke) - need to create slides
 
-(Luke) - need to update acrchitecture for no cloud to .NET (talk about Steel toe)
+(Luke) - need to update architecture for no cloud to .NET (talk about Steel toe)
 
 - What are the goals of the system?
 - What principles and practices will we follow when building the services?
@@ -160,4 +160,3 @@ Need: Starter Code
 
 . Review of work completed
 . Q&A
-
