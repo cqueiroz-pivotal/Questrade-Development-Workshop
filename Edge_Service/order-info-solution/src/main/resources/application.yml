@@ -1,13 +1,8 @@
 spring:
   jpa:
     generate-ddl: true
-  cloud:
-    services:
-      registrationMethod: route
-
 
 security:
   basic:
     enabled: false
-
-      
+    

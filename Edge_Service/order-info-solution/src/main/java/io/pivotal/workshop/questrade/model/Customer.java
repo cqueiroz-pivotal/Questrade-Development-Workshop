@@ -1,13 +1,12 @@
 package io.pivotal.workshop.questrade.model;
 
-import javax.persistence.Entity;
-import javax.persistence.Id;
+import java.io.Serializable;
 
-@Entity
-public class Customer {
+public class Customer implements Serializable {
 
-	@Id
-    private long id;
+	private static final long serialVersionUID = -3146470211032217887L;
+	
+	private long id;
     private String firstName;
     private String lastName;
 

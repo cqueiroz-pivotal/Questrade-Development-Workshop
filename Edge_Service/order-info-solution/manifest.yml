@@ -1,0 +1,12 @@
+applications:
+- name: order-info-service
+  memory: 512M
+  path: target/OrderInfoServiceApplication-0.0.1-SNAPSHOT.jar
+  host: order-info-service-${random-word}
+  buildpack: java_buildpack_offline
+
+services:
+- registry-svc
+
+env:
+  CF_TARGET: https://api.run.pez.pivotal.io

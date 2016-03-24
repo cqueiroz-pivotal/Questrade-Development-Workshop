@@ -29,10 +29,10 @@ public class CustomerServiceApplication {
 			repository.deleteAll();
 			
 			// save a couple of customers
-			repository.save(new Customer("Dan", "Buchko"));
-			repository.save(new Customer("Luke", "Shannon"));
-			repository.save(new Customer("David 'Maniac'", "Barry"));
-			repository.save(new Customer("Louis", "Lo"));
+			repository.save(new Customer(1, "Dan", "Buchko"));
+			repository.save(new Customer(2, "Luke", "Shannon"));
+			repository.save(new Customer(3, "David 'Maniac'", "Barry"));
+			repository.save(new Customer(4, "Louis", "Lo"));
 
 			// fetch all customers
 			log.info("Customers found with findAll():");
