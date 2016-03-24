@@ -9,7 +9,7 @@ namespace OrderService
 {
     public class OrderContext : DbContext
     {
-        public OrderContext() : base("name=OrderDBConnectionString")
+        public OrderContext() : base(CloudSqlConnection.ConnectionString)
         {
         }
 
