@@ -4,7 +4,7 @@ import java.net.URI;
 import java.util.List;
 
 import io.pivotal.workshop.questrade.model.Customer;
-
+import org.springframework.beans.factory.annotation.Autowired;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.cloud.client.ServiceInstance;
@@ -16,19 +16,16 @@ import org.springframework.web.util.UriComponentsBuilder;
 @Service
 public class QueryCustomersService {
 
-	private DiscoveryClient discoveryClient;
-	private RestTemplate restTemplate = new RestTemplate();
-	
-	Logger logger = LoggerFactory
-			.getLogger(QueryCustomersService.class);
+        @Autowired
+        private RestTemplate restTemplate;
 
-	public Customer[] queryCustomers() {
+        Logger logger = LoggerFactory
+                        .getLogger(QueryCustomersService.class);
 
-		URI uri = UriComponentsBuilder.fromUriString("https://customer-service").build().toUri();
-		
-		logger.debug("customer-service URI = " + uri.toString());
-		Customer[] customers = restTemplate.getForObject(uri, Customer[].class);
-		return customers;
-	}
+        public Customer[] queryCustomers() {
+
+                Customer[] customers = restTemplate.getForObject("https://customer-service/customers", Customer[].class);
+                return customers;
+        }
 
 }
